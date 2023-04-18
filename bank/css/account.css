@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;600&display=swap");
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-family: "Roboto Mono", monospace;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  background: white;
+  height: 66px;
+}
+
+.left img {
+  height: 52px;
+  width: 103px;
+}
+
+.container {
+  padding: 0 10vw;
+}
+
+nav {
+  padding-top: 2px;
+}
+
+nav ul li {
+  list-style: none;
+  padding: 0 12px;
+}
+.search {
+  width: 240px;
+  height: 30px;
+  margin: 10px;
+}
+
+input[type="submit"] {
+  background-color: white;
+  border: none;
+  color: black;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.logout {
+  font-family: "Roboto Mono", monospace;
+}
+
+.section1 {
+  background: #f2f2f2;
+  height: 60vh;
+}
+.homeImg {
+  width: 80vw;
+}
+
+/* * {
+  box-sizing: border-box;
+} */
+
+@import url("https://fonts.googleapis.com/css?family=PT+Sans");
+
+body {
+  background: #fff;
+  font-family: "PT Sans", sans-serif;
+}
+h2 {
+  padding-top: 1.5rem;
+}
+a {
+  color: #333;
+}
+a:hover {
+  color: #da5767;
+  text-decoration: none;
+}
+.card {
+  border: 0.4rem solid #f8f9fa;
+  top: 10%;
+}
+.form-control {
+  background-color: #f8f9fa;
+  padding: 20px;
+  padding: 25px 15px;
+  margin-bottom: 1.3rem;
+}
+
+.form-control:focus {
+  color: #000000;
+  background-color: #ffffff;
+  border: 3px solid #da5767;
+  outline: 0;
+  box-shadow: none;
+}
+
+.btn {
+  padding: 0.6rem 1.2rem;
+  background: #da5767;
+  border: 2px solid #da5767;
+}
+.btn-primary:hover {
+  background-color: #df8c96;
+  border-color: #df8c96;
+  transition: 0.3s;
+}
+
+
